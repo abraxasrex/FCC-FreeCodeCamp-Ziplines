@@ -1,0 +1,77 @@
+.bg_fix{
+  -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+  background-size: cover;}
+  
+  .thumbnail1{
+    height:200px;
+    width:200px;
+  }
+.thumbnail2{
+  height:100%;
+  width:56%;
+}
+  
+}
+.fill{
+  height:100%;
+  max-height:300px
+  
+}
+.second{
+  display:none;
+  margin-top:10px;
+  margin-bottom:10px;
+  height:150px;
+}
+.newfont{
+  font-family: 'Oswald', sans-serif;
+  font-size:50px;
+}
+.centered{
+  text-align:center;  
+}
+.networking{
+  height:150px;
+  white-space:normal;
+  margin-bottom:10px;
+  margin-top:10px;
+  font-size:large;
+}
+.pf_link{
+  height:200px;
+  margin-bottom:30px;
+}
+
+.owl{
+  background-image:url("http://1.bp.blogspot.com/-NJ26vsr6AQc/UuTm8JLiIgI/AAAAAAADAj4/KQBZAuAbfh8/s1600/bizbird.jpg");
+}
+
+
+.pf_button{
+  .btn
+  .btn-lg
+}
+.div_fix{
+    max-width:33%;
+}
+
+.stylin{
+  font-family: "Courier New", Courier, monospace;"Lucida Console", Monaco, monospace
+  /*<link href='http://fonts.googleapis.com/css?family=Oswald|Droid+Serif' rel='stylesheet' type='text/css'>*/
+}
+.nice_color{
+  
+  background-color:#9999FF;
+  
+}
+.nice_font{
+  color:#9999FF;
+}
+.divver{
+  margin-top:50px;
+  float: none;
+  margin: 40px auto 50px auto;
+  clear:both;
+}
