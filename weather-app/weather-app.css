@@ -1,0 +1,19 @@
+#back{
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+div id="   height:100%;
+  padding-bottom:100px;
+}
+}
+
+.spacer1{
+  height:60px;
+}
+.spacer2{
+  height:30px;
+}
+.info{
+  class:well;
+}
