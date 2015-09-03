@@ -1,0 +1,40 @@
+.main_circle{
+  border-style:solid;
+  border-radius:200px;
+  margin-top:25px;
+  margin-bottom:75px;
+  height:390px;
+  text-align:center;
+  vertical-align:middle;
+  font-size:70px;
+  background-image:url("https://lh3.googleusercontent.com/-yQvCPhSX3c0/VWBKEasS0JI/AAAAAAAAIcc/HUxuLaodKv8/s0-d/_wallpaper__kawaii_face_pink_by_kawaistore-d7d2nmg.png");
+  background-size:100%;
+  background-repeat:no-repeat;
+  background-color:#9999FF;
+  
+}
+.parent{
+  
+    display: table;
+    text-align: center;
+}
+.child{
+  display: table-cell;
+    vertical-align: middle;
+  font-size:150px;
+}
+#display_time{
+  
+}
+.container-fluid{
+  background-image:url("https://40.media.tumblr.com/9512a282e04f8ffdec96fcf13c98a835/tumblr_mq43iwUvId1s8mgkyo1_500.png");
+  background-size:100%;
+ background-repeat:no-repeat;
+}
+.bg_fix{
+ 
+  -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+  background-size: cover;
+}
