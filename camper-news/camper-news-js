@@ -1,0 +1,35 @@
+(function() {
+  var app = angular.module('newsGet', []);
+
+  app.controller('NewsController', ['$http', function($http){
+    
+    var news=this;
+    news.articles=1;
+    news.headline;
+    news.link;
+    news.image;
+    
+     $http.get('http://www.freecodecamp.com/news/hot/').success(function(data){
+       for(var i=0;i<data.length;i++){
+      news.headline=data[i].headline
+      news.link=data[i].link;
+         news.upvotes=data[i].upVotes.length;
+         if(data[i].image){
+       news.image=data[i].image;
+         }
+        else{
+          news.image='http://wiki.solid-run.com/images/7/75/No_image_available.png'
+        } makeNews(news.headline,news.link,news.image,news.upvotes);
+       }
+    });
+    
+    function makeNews(headline,link,img,upvotes){ 
+      newsdiv="<div class='tile'><img id='img_tile' src='"+ img + "'/><br>"+headline+"<br><a href='"+link+"'>read more</a><br>upvotes:"+ upvotes +"</div>";
+      $('#test').append(newsdiv);
+    }
+  }]);
+  
+  
+})();
+
+  
