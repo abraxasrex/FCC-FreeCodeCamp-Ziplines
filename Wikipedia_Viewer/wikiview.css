@@ -1,0 +1,70 @@
+html{
+  background-color:orange;
+}
+.rounded{
+  border-radius:25px;
+}
+.head{
+  margin-top:50px;
+  font-family:Lobster;
+  text-align:center;
+}
+h1{
+  border-style:solid;
+  border-color:grey;
+}
+.entry{
+  margin-top:25px;
+  font-size:20px;
+  text-align:center;
+}
+button{
+  clear:both;
+  font-family:'Arial';
+  margin-top:15px;;
+  width:100px;
+}
+.b_div{
+  text-align:center;
+  margin-top:0px;
+  font-size:15px;
+}
+#test{
+  text-align:center;
+  
+  margin-top:10px;
+  margin-bottom:10px;
+}
+.container-fluid{
+  background-color:orange;
+}
+.bg_fix{
+   height:100%
+  -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+  background-size: cover;
+}
+#hits{
+  border-style:solid;
+  border-color:grey;
+  clear:both;
+  font-family: 'Alegreya Sans', sans-serif;
+  height:120px;
+  font-size:25px;
+  word-wrap:break-word;
+  background-color:white;
+  margin-bottom:10px;
+}
+#user_entry{
+  word-wrap:break word;
+  text-align:center;
+}
+#info{
+  font-size:15px;
+  text-align:center;
+   word-wrap:break-word;
+}
+a {
+  color:black;
+}
