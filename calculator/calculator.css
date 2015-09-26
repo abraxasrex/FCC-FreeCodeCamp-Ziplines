@@ -1,0 +1,81 @@
+@keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
+}
+.container-fluid{
+  padding-left:0;
+}
+#animate-area	{
+  width:100%;
+	height: 500px; 
+  padding-left:0;
+  margin-left:0;
+  position:absolute;
+  z-index:0;
+	background-image: url(http://www.vbforums.com/attachment.php?attachmentid=113103&d=1398112502);
+	background-position: 0px 0px;
+	background-repeat: repeat-x;
+	animation: animatedBackground 40s linear infinite;
+}
+
+html{
+  background-color:#663300;
+  height:500px;
+}
+h4{
+  font-family:'Candal', sans-serif;
+}
+.bar{
+  height:35px;
+  width:80px;
+  background-color:white;
+   color:black;
+  margin-top:0px;
+  border-radius:5%;
+}
+.slot{
+  width:40px;
+  height:35px;
+  background-color:white;
+   color:black;
+  margin-top:10px;
+  border-radius:5px;
+}
+.display{
+  border-radius:5%;
+  text-align:right;
+  font-size:20px;
+  height:30px;
+  margin-left:25px;
+   margin-right:25px;
+  background-color:white;
+  word-wrap:break-word;
+  
+}
+#holder{
+  left:36%;
+  height:275px;
+  width:250px;
+  margin-top:50px;
+  margin-bottom:50px;
+  background-color:#CCCCCC;
+  background-image:url(http://webdesignandsuch.com/posts/stainless/1.jpg);
+   border-radius:5%;
+  z-index:1;
+}
+#main{
+  text-align:center;
+  z-index:1;
+}
+.bg_fix{
+  -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+  background-size: cover;
+}
+.bg_fix2{
+  -webkit-background-size: 50% 100%;
+-moz-background-size: 50% 100%;
+-o-background-size: 50% 100%;
+  background-size: 50% 100%;
+}
